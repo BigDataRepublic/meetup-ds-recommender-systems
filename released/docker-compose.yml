@@ -1,0 +1,8 @@
+version: "3"
+services:
+  recsys:
+    image: bigdatarepublic/data-science-recommender-systems:1.0.0
+    command:
+    - "/opt/conda/bin/jupyter notebook --notebook-dir=/opt/notebooks --ip='*' --port=8889 --no-browser --allow-root"
+    ports:
+    - 8889:8889
