@@ -7,7 +7,7 @@ from sklearn.base import BaseEstimator
 import os
 
 DATA_URL = "http://files.grouplens.org/datasets/movielens/ml-100k.zip"
-DATA_ROOT_DIR = '../data'
+DATA_ROOT_DIR = 'data'
 DATA_DIR = os.path.join(DATA_ROOT_DIR, 'ml-100k')
 BASE_FILE = os.path.join(DATA_DIR, 'u1.base')
 TEST_FILE = os.path.join(DATA_DIR, 'u1.test')
